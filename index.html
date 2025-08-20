@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CarBuy – Request Confirmation (Variant A)</title>
+  <style>
+    body { margin:0; padding:0; background:#f5f6f8; }
+    table { border-collapse:collapse; }
+    img { border:0; display:block; line-height:100%; -ms-interpolation-mode:bicubic; }
+    a { text-decoration:none; }
+    .container { width:640px; max-width:640px; margin:0 auto; }
+
+    .text-muted { color:#64748b !important; }
+    .text-dark  { color:#0f172a !important; }
+    .link { color:#2E81FB !important; }
+    .small { font-size:12px !important; line-height:1.6 !important; }
+    .h3 { font-size:18px !important; line-height:1.4 !important; margin:10px 0 14px !important; }
+    .h4 { font-size:16px !important; margin:0 0 6px !important; }
+    .btn { display:inline-block; padding:10px 16px; border-radius:6px; font-family:Helvetica, Arial, sans-serif; font-size:14px; }
+    .btn-orange { background:#F26600; color:#ffffff !important; }
+    .hr { height:1px; background:#e5e7eb; font-size:0; line-height:0; }
+    .stack { }
+    .col { vertical-align:top; }
+
+    .eyebrow { text-transform:uppercase; letter-spacing:.6px; font-size:11px !important; color:#475569 !important; }
+    .callout { background:#f3f4f6; border:1px solid #e5e7eb; border-radius:10px; }
+    .callout-inner { padding:14px 16px; }
+    .checklist td { padding:0 0 6px 0; font-size:14px; line-height:1.6; color:#334155; }
+
+    @media only screen and (max-width:640px){
+      .container { width:100% !important; }
+      .stack { display:block !important; width:100% !important; }
+      .center-sm { text-align:center !important; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <table role="presentation" class="container" width="640" aria-hidden="true">
+    <tr><td>
+      <table role="presentation" width="100%" bgcolor="#D9D9D9" style="background:#D9D9D9; border-radius:14px 14px 0 0;">
+        <tr>
+          <td align="center" style="padding:18px 16px;">
+            <a href="https://carbuy.co.nz" target="_blank" style="display:inline-block;"><img src="https://carbuy.co.nz/wp-content/uploads/2025/07/CarBuy-Logo.png" width="160" alt="CarBuy" /></a>
+          </td>
+        </tr>
+      </table>
+      <table role="presentation" width="100%" bgcolor="#F26600"><tr><td style="height:4px; line-height:4px; font-size:0;">&nbsp;</td></tr></table>
+    </td></tr>
+  </table>
+
+  <!-- Card -->
+  <table role="presentation" class="container" width="640" style="margin:24px auto 28px; background:#ffffff; border-radius:14px;">
+    <!-- Stepper (static preview: step 1 active) -->
+    <tr>
+      <td style="padding:26px 28px 8px;">
+        <table role="presentation" width="100%">
+          <tr valign="middle">
+            <td align="center" width="19%"><table role="presentation"><tr><td style="width:38px; height:38px; background:#2E81FB; color:#ffffff; border-radius:50%; font-family:Helvetica, Arial, sans-serif; font-size:16px; text-align:center;"><div style="line-height:38px; font-weight:bold;">1</div></td></tr></table></td>
+            <td width="14%"><table role="presentation" width="100%"><tr><td style="height:2px; background:#e5e7eb; font-size:0; line-height:0;">&nbsp;</td></tr></table></td>
+            <td align="center" width="19%"><table role="presentation"><tr><td style="width:38px; height:38px; background:#e5e7eb; color:#64748b; border-radius:50%; font-family:Helvetica, Arial, sans-serif; font-size:16px; text-align:center;"><div style="line-height:38px; font-weight:bold;">2</div></td></tr></table></td>
+            <td width="14%"><table role="presentation" width="100%"><tr><td style="height:2px; background:#e5e7eb; font-size:0; line-height:0;">&nbsp;</td></tr></table></td>
+            <td align="center" width="19%"><table role="presentation"><tr><td style="width:38px; height:38px; background:#e5e7eb; color:#64748b; border-radius:50%; font-family:Helvetica, Arial, sans-serif; font-size:16px; text-align:center;"><div style="line-height:38px; font-weight:bold;">3</div></td></tr></table></td>
+            <td width="14%"><table role="presentation" width="100%"><tr><td style="height:2px; background:#e5e7eb; font-size:0; line-height:0;">&nbsp;</td></tr></table></td>
+            <td align="center" width="19%"><table role="presentation"><tr><td style="width:38px; height:38px; background:#e5e7eb; color:#64748b; border-radius:50%; font-family:Helvetica, Arial, sans-serif; font-size:16px; text-align:center;"><div style="line-height:38px; font-weight:bold;">4</div></td></tr></table></td>
+          </tr>
+          <tr>
+            <td align="center" style="padding-top:8px; font-family:Helvetica, Arial, sans-serif; font-size:11px; color:#475569; letter-spacing:0.6px;">REQUEST</td>
+            <td></td>
+            <td align="center" style="padding-top:8px; font-family:Helvetica, Arial, sans-serif; font-size:11px; color:#94a3b8; letter-spacing:0.6px;">OFFER</td>
+            <td></td>
+            <td align="center" style="padding-top:8px; font-family:Helvetica, Arial, sans-serif; font-size:11px; color:#94a3b8; letter-spacing:0.6px;">APPOINTMENT</td>
+            <td></td>
+            <td align="center" style="padding-top:8px; font-family:Helvetica, Arial, sans-serif; font-size:11px; color:#94a3b8; letter-spacing:0.6px;">PAYMENT</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <!-- Heading & summary -->
+    <tr><td style="padding:16px 28px 0;">
+      <p class="eyebrow" style="margin:0; font-family:Helvetica, Arial, sans-serif;">Request received</p>
+      <h1 style="margin:0 0 6px; font-family:Helvetica, Arial, sans-serif; font-size:28px; line-height:1.3; color:#0f172a;">Thanks — we’ve got your request</h1>
+    </td></tr>
+    <tr><td style="padding:6px 28px 8px;">
+      <p style="margin:0; font-family:Helvetica, Arial, sans-serif; font-size:16px; line-height:1.65; color:#334155;">Hi {{ticket.requester.first_name}}, thanks for submitting your offer request for your <strong>{{ticket.ticket_field_22215164831769}} {{ticket.ticket_field_22215209176089}} ({{ticket.ticket_field_22215021678233}})</strong>. Our team is reviewing the details and will be in touch shortly.</p>
+    </td></tr>
+
+    <!-- Callout: what happens next -->
+    <tr><td style="padding:16px 28px 0;"><p class="eyebrow" style="margin:0; font-family:Helvetica, Arial, sans-serif;">What happens next</p></td></tr>
+    <tr><td style="padding:6px 28px 0;">
+      <table role="presentation" width="100%" class="callout" cellpadding="0" cellspacing="0" style="margin:0 0 12px;">
+        <tr><td class="callout-inner" style="font-family:Helvetica, Arial, sans-serif;">
+          <table role="presentation" class="checklist" cellpadding="0" cellspacing="0">
+            <tr><td>• <strong>Offer:</strong> We’ll email you a no‑pressure offer based on current market data.</td></tr>
+            <tr><td>• <strong>Appointment:</strong> If you’re happy to proceed, we’ll book a quick vehicle check at a time/place that suits you.</td></tr>
+            <tr><td>• <strong>Payment:</strong> Choose to sell? We’ll pay you immediately and handle the paperwork.</td></tr>
+          </table>
+        </td></tr>
+      </table>
+    </td></tr>
+
+    <tr>
+      <td style="padding:6px 28px 0;">
+        <table role="presentation" width="100%" style="background:#fff7ed; border:1px solid #fed7aa; border-radius:10px;">
+          <tr>
+            <td style="padding:14px 16px; font-family:Helvetica, Arial, sans-serif;">
+              <h3 style="margin:0 0 6px; font-size:16px; color:#9a3412;">Speed things up</h3>
+              <p style="margin:0; font-size:14px; line-height:1.6; color:#7c2d12;">Reply with photos, service history, and extras (e.g., tyres, accessories). Multiple emails are fine if images are large.</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr><td style="padding:12px 28px 6px;"><div class="hr"></div></td></tr>
+
+    <!-- FAQ -->
+    <tr><td style="padding:0 28px 0;">
+      <p class="small text-muted" style="margin:0 0 12px; font-family:Helvetica, Arial, sans-serif;">Check if your car meets our <a class="link" href="https://carbuy.co.nz/BUYING-CRITERIA/">criteria</a>. If not, we won't be able to send an offer.</p>
+      <h3 class="h3 text-dark center-sm" style="text-align:center; font-family:Helvetica, Arial, sans-serif;">Frequently Asked Questions</h3>
+    </td></tr>
+    <tr><td style="padding:0 28px 18px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="stack col" width="50%" style="padding:0 10px 0 0;">
+            <h4 class="h4 text-dark" style="font-family:Helvetica, Arial, sans-serif;">What amount can I expect?</h4>
+            <p style="margin:0 0 14px; font-family:Helvetica, Arial, sans-serif; font-size:14px; line-height:1.6; color:#334155;">PLEASE NOTE that our offer is not a vehicle valuation. Estimates from online car marketplaces may not accurately reflect your car's value within the dealership network. Even though we strive to offer as much as possible, as a dealership, the prices we offer are similar to wholesale or trade-in prices.</p>
+            <h4 class="h4 text-dark" style="font-family:Helvetica, Arial, sans-serif;">My offer is too low?</h4>
+            <p style="margin:0 0 14px; font-family:Helvetica, Arial, sans-serif; font-size:14px; line-height:1.6; color:#334155;">If our offer doesn’t meet your expectations, there’s no obligation to accept. However, please keep us in mind for any future opportunities, as car values often fluctuate over time. We may be able to better align with your expectations on your next vehicle. Remember that our offers are valid for 7 days from the date they are made, giving you ample time to consider your options.</p>
+          </td>
+          <td class="stack col" width="50%" style="padding:0 0 0 10px;">
+            <h4 class="h4 text-dark" style="font-family:Helvetica, Arial, sans-serif;">How is the offer calculated?</h4>
+            <p style="margin:0 0 14px; font-family:Helvetica, Arial, sans-serif; font-size:14px; line-height:1.6; color:#334155;">Our experienced buying team determines your offer by assessing current market conditions, including factors like supply and demand. We rely on up-to-date, reliable national resources for this assessment, and because market conditions can change, our offers are valid for 7 days.</p>
+            <h4 class="h4 text-dark" style="font-family:Helvetica, Arial, sans-serif;">Can my offer change?</h4>
+            <p style="margin:0; font-family:Helvetica, Arial, sans-serif; font-size:14px; line-height:1.6; color:#334155;">Your offer may change based on our inspection of your vehicle. If any mechanical or cosmetic repairs and/or maintenance are required, it may be accounted for in our final offer. If no additional work is needed, you'll receive the full offer. Any damages or work you've already disclosed will be factored into the maximum offer you'll receive via email.</p>
+          </td>
+        </tr>
+      </table>
+      <p style="text-align:center; margin:12px 0 20px;"><a href="https://carbuy.co.nz/faqs/" target="_blank" class="btn btn-orange">View our FAQ page</a></p>
+      <p style="margin:4px 0 6px; font-family:Helvetica, Arial, sans-serif; font-size:9px; line-height:1.4; color:#94a3b8; text-align:center;">We’re sending you this email because you requested an offer for your car. Rest assured, you haven’t been added to any email or marketing lists.</p>
+      <p style="margin:0 0 6px; font-family:Helvetica, Arial, sans-serif; font-size:9px; line-height:1.4; color:#94a3b8; text-align:center;">Thank you for using New Zealand’s original mobile car‑buying service — formerly known as Your Salesman. Same great service, just a new name.</p>
+    </td></tr>
+  </table>
+
+  <!-- Footer + Disclaimer (preview only) -->
+  <table role="presentation" class="container" width="640" aria-hidden="true"><tr><td style="padding:18px 24px; background:#111827; border-radius:8px; color:#cbd5e1; font-family:Helvetica, Arial, sans-serif; font-size:12px;">
+    <table role="presentation" width="100%"><tr>
+      <td class="stack" width="60%" style="padding:4px 0;">CarBuy — NZ’s original mobile car‑buying service · <a href="tel:0800725376" style="color:#93c5fd;"><span style="white-space:nowrap;">0800&nbsp;725376</span></a></td>
+      <td class="stack" width="40%" align="right" style="padding:4px 0;"><a href="https://carbuy.co.nz/terms-and-conditions/" style="color:#93c5fd;">Terms</a> &nbsp;•&nbsp; <a href="https://carbuy.co.nz/privacy-policy/" style="color:#93c5fd;">Privacy</a></td>
+    </tr></table>
+  </td></tr></table>
+  <table role="presentation" class="container" width="640" aria-hidden="true" style="margin:8px auto 24px;"><tr><td style="padding:0 24px; font-family:Helvetica, Arial, sans-serif; font-size:12px; line-height:1.6; color:#9aa3af;">
+    <p style="margin:0 0 12px;"><strong>Disclaimer:</strong> This email and any attachments are intended solely for the addressee and may contain confidential information. If you are not the intended recipient, please notify the sender and delete this email.</p>
+    <p style="margin:0 0 12px;">Salesman Limited trading as CarBuy collects and uses personal information in line with the Motor Vehicle Register’s authorised access conditions. Information is used only for verifying vehicle ownership and service compliance.</p>
+    <p style="margin:0;">While CarBuy takes reasonable precautions to ensure emails are free from harmful components, we cannot accept liability for any loss arising from their use.</p>
+  </td></tr></table>
+</body>
+</html>
